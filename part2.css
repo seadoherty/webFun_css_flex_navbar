@@ -1,0 +1,36 @@
+ul, .topNav, .left{
+    display: flex;
+}
+
+.topNav{
+    margin-top: 20px;    
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 1250px;
+    background-color:#0099ff;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    height: 80px;
+    width: auto;
+}
+
+ul{
+    width: 800px;
+    justify-content: space-around;
+    flex-direction: row;   
+    list-style: none;
+    font-size: 20px;
+    
+}
+li a {
+    text-decoration: none;
+    color: white;    
+}
+
+.left{    
+    justify-content: flex-start;
+}

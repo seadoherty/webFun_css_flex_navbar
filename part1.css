@@ -1,0 +1,13 @@
+.center-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: rgb(35, 35, 121);
+}
+
+.center-item{    
+    width: 100px;
+    height: 100px;  
+    background-color: blanchedalmond;
+}
